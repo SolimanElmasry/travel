@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+span {
+    position: relative;
+    width: 1050px;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+.box {
+    position: absolute;
+    top: 60px ;
+    left: 150px;
+    width: 750px;
+    height: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    border-bottom: none ;
+    background: url(front.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 55px rgba(173, 247, 173, 0.562);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.navb {
+    text-decoration: none;
+    color: rgb(210, 243, 182);
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navb:hover {
+    color: rgb(0, 132, 255);
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+h2 {
+    margin: 25px 20px 0 10px;
+}
+
+.sign {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .5s;
+    color: rgba(197, 250, 151, 0.61);
+}
+
+.sign:hover {
+    color: rgb(247, 0, 255);
+    letter-spacing: 4px;
+}
+
+p {
+    color: wheat;
+    margin-left: 100px;
+    font-size: 3em;
+}
+
+h1 {
+    color: wheat;
+    text-align: center;
+    font-size: 8em;
+}
